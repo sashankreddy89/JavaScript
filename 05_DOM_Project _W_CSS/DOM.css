@@ -1,0 +1,30 @@
+.sub_button{
+    border: none;
+   /* width: 25vw;*/
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.subscribed-button{
+    background-color: gray;
+    color: black;
+}
+
+.input_js{
+    font-size:1rem;
+    padding: 10px;
+}
+
+.cost{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 15px;
+}

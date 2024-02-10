@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rpsf.css">
+    <script src="rpsf.js"></script>
+</head>
+<body>
+
+    <p class="font">Rock Paper Scissors</p>
+    <button onclick="
+    computeMove();
+    console.log(computerMove);
+    playerMove('Rock');
+    " class="move-button"> <img src="Images/rock-emoji.png " height="50px" alt="Rock"></button>
+
+    <button onclick="
+    computeMove();
+    console.log(computerMove);
+    playerMove('Paper');
+    " class="move-button"><img src="Images/paper-emoji.png " height="50px" alt="Rock"></button>
+
+    <button onclick="
+    computeMove();
+    console.log(computerMove);
+    playerMove('Scissors');
+    " class="move-button"><img src="Images/scissors-emoji.png " height="50px" alt="Rock"></button>
+
+    <p class="result-class"></p>
+    <p class="move-class"></p>
+    <p class="score-class"></p>
+
+
+    <button onclick="resetfunc();" class="reset-button">Reset Score</button>
+
+</body>
+</html>

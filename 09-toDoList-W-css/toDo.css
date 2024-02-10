@@ -1,0 +1,36 @@
+.cont,
+.grid{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    gap: 10px;
+    font-size: large;
+}
+
+.grid{
+    margin-bottom: 10px;
+    align-items: stretch;
+}
+
+.todo-input,.date-input,.add-button{
+    font-size: 15px;
+    padding: 5px;
+}
+
+.add-button{
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.delete-button{
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.cont{
+    align-items: center;
+}
+

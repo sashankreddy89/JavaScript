@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    border: none;
+    font-size: large;
+}
+.gray-button{
+    /*background-color: rgb(182, 169, 169);*/
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+.yellow-button{
+    background-color: orange;
+    color: black;
+}
+.display{
+    color: white;
+    width: 50vw;
+    height: 5vh;
+    padding-top: 10px;
+    font-size: 2rem;
+    margin: 1px 5px;
+}
+p:first-child{
+    padding-top: 1px;
+    color: aliceblue;
+}
