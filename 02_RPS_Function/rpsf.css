@@ -1,0 +1,21 @@
+.font{
+    font-size: 2rem;
+}
+
+button{
+    margin-right: 3rem;
+}
+
+body{
+    background-color:beige ;
+}
+
+p{
+    border: 2px solid black;
+    width: 31vw;
+}
+
+button{
+    padding: 10px;
+    background-color:burlywood;
+}
